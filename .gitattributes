@@ -1,2 +1,19 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# If (!tamanho string%2){Errado}
+# Else{Tdos_q_abrem_fecha()}
+
+# Tdos_q_abrem_fecha()
+# {
+#     Pilha_abrindo
+#     For(para tdos os caracteres)
+#     {
+#         If(topo.Pilha_abrindo != correspondente fechamento)
+#         {
+#             Bool = Erro
+#             Encerra
+#         }
+#         Else{Bool=ok}
+#     }
+# }
+
